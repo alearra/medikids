@@ -3,7 +3,7 @@ import './styles/tailwindcss.css'
 function App() {
   return (
     <div className=''>
-      MEDIKIDS
+      asdfasdfdsaf
     </div>
   )
 }
