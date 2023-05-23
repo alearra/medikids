@@ -8,7 +8,7 @@ module.exports = {
       ...colors,
     },
     fontFamily: {
-      "D-DIN": ["D-DIN", "sans-serif"],
+      "NUNITO": ["Nunito", "sans-serif"],
     },
   },
   plugins: [require("daisyui")],

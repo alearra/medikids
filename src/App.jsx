@@ -2,7 +2,7 @@ import './styles/tailwindcss.css'
 
 function App() {
   return (
-    <div className=''>
+    <div className='font-NUNITO'>
       MEDIKIDS
     </div>
   )
