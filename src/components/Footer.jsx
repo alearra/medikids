@@ -10,7 +10,7 @@ export const Footer = () => {
           </a>
 
         <p className="text-sm text-gray-600 dark:text-gray-300">
-          © Medikids 2023 by ELCHORIDEV.
+          © Medikids 2023
         </p>
 
         <div className="flex -mx-2">
