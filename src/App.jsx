@@ -1,9 +1,10 @@
+import { LandingPage } from './pages/LandingPage'
 import './styles/tailwindcss.css'
 
 function App() {
   return (
-    <div className='font-NUNITO'>
-      MEDIKIDS
+    <div className=''>
+      <LandingPage />
     </div>
   )
 }
