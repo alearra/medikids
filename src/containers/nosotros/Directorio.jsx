@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Directorio = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white font-NUNITO">
     
     <div className="container px-6 py-8 mx-auto">
         <h2 className="text-2xl font-semibold text-center text-pantoneP111 capitalize lg:text-3xl ">Directorio</h2>
