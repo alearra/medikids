@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../assets/static/logo.png";
 
 export const Header = () => {
@@ -66,18 +67,18 @@ export const Header = () => {
           }`}
         >
           <div className="flex flex-col md:flex-row md:mx-6">
-            <a
+            <Link
               className="my-2 text-{#898a8d} transition-colors duration-300 transform font-semibold hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
+              to="/"
             >
               Home
-            </a>
-            <a
+            </Link>
+            <Link
               className="my-2 text-{#898a8d} transition-colors duration-300 transform font-semibold hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
+              to="/nosotros"
             >
               Nosotros
-            </a>
+            </Link>
             <a
               className="my-2 text-{#898a8d} transition-colors duration-300 transform font-semibold hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
               href="#"
