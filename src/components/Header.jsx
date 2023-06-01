@@ -79,12 +79,12 @@ export const Header = () => {
             >
               Nosotros
             </Link>
-            <a
+            <Link
               className="my-2 text-{#898a8d} transition-colors duration-300 transform font-semibold hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
-              href="#"
+              to="/especialidades"
             >
               Especialidades
-            </a>
+              </Link>
             <a
               className="my-2 text-{#898a8d} transition-colors duration-300 transform font-semibold hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
               href="#"
@@ -109,7 +109,7 @@ export const Header = () => {
           <a
               className="bg-pantoneP346 p-2 rounded-md my-2 text-slate-50 transition-colors duration-300 transform font-semibold hover:text-blue-500  md:mx-4 md:my-0"
               href="https://www.mrturno.com/p/@medikids/medikids"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Turnos
             </a>

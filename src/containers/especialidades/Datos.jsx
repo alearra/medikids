@@ -2,7 +2,7 @@ import React from "react";
 import { FaClinicMedical, FaBaby, FaHandHoldingMedical, FaRegStar} from 'react-icons/fa';
 
 
-export const Datos = () => {
+export const DatosEspecialidades = () => {
   return (
     <section className=" w-full p-6 my-6 font-NUNITO">
       <div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
