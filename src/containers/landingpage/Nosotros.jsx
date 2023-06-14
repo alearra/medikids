@@ -3,9 +3,9 @@ export const Nosotros = () => {
   return (
     <section className="bg-slate-50 h-auto">
       <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-3xl text-center font-semibold tracking-wide text-pantoneP111 lg:text-4xl">
+        <h2 className="text-3xl text-center font-semibold tracking-wide text-pantoneP111 lg:text-4xl">
           Atención Médica Integral y Personalizada
-        </h1>
+        </h2>
 
         <div className="flex items-start max-w-6xl mx-auto mt-16">
           <div>

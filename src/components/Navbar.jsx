@@ -69,7 +69,7 @@ export const NavBar = () => {
           <div
             className={`${
               isOpen ? "opacity-100" : "opacity-0"
-            } lg:opacity-100 lg:relative lg:w-auto lg:p-0 lg:top-0 lg:translate-x-0 lg:shadow-none absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-gray-950 mt-2 shadow-md lg:bg-transparent lg:mt-0`}
+            } lg:opacity-100 lg:relative lg:w-auto lg:p-0 lg:top-0 lg:translate-x-0 lg:shadow-none absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-slate-50 mt-2 shadow-md lg:bg-transparent lg:mt-0`}
           >
             <div className="lg:flex lg:items-center">
               <Link
@@ -101,9 +101,11 @@ export const NavBar = () => {
               <a
                 href="https://www.mrturno.com/p/@medikids/medikids"
                 target="_blank"
-                className="block shadow mx-1 px-3 py-1 bg-pantoneP346 text-base font-medium text-slate-50 capitalize transition-colors duration-200 transform rounded-md hover:bg-pantoneP346/90 hover:text-white hover:font-semibold"
               >
-                Turnos
+                <button className="block shadow mx-1 px-3 py-1 bg-pantoneP346 text-base font-medium text-slate-50 capitalize transition-colors duration-200 transform rounded-md hover:bg-pantoneP346/90 hover:text-white hover:font-semibold">
+                  {" "}
+                  Turnos
+                </button>
               </a>
             </div>
           </div>
