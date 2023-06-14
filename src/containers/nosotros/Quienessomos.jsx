@@ -14,25 +14,27 @@ export const Quienessomos = () => {
         </div>
         <div className="flex items-start max-w-6xl mx-auto mt-16">
           <div>
-            <p className="flex items-center text-start  text-xl font-medium sm:mb-12 lg:mx-8">
-              Medikids surge desde la idea de un grupo de profesionales con
-              amplia experiencia, que sueñan con un Centro Pediátrico Privado,
-              que responda a las necesidades de todos los mendocinos. Un centro
-              en el que puedan comulgar todas las subespecialidades pediátricas
-              en su conjunto.
+            <p className="flex items-center text-justify  text-xl font-medium sm:mb-12 lg:mx-8">
+              Medikids, centro pediátrico privado en Mendoza. Nuestro equipo de
+              profesionales con amplia experiencia comparte un sueño: crear un
+              centro pediátrico que satisfaga las necesidades de la comunidad
+              mendocina. En Medikids, todas las subespecialidades pediátricas se
+              unen para brindar una atención integral.
             </p>
 
-            <p className="flex items-center text-start  text-xl font-medium sm:mb-12 lg:mx-8">
-              Nuestra visión es ser la más prestigiosa empresa de salud infantil
-              de la provincia, con proyección nacional y países limítrofes. Para
-              este objetivo, nuestra misión es brindar un servicio médico de
-              excelencia, los 365 días del año, ofreciendo seguridad y
-              confiabilidad a la familia, a través de los profesionales con la
-              mejor formación académica de nuestro medio; acompañando el proceso
-              de diagnóstico y recuperación de los pacientes. Ocupándonos y
-              manteniéndonos a la vanguardia de los avances de la ciencia,
-              promocionando la formación continua a través del Comité de
-              Docencia e Investigación.
+            <p className="flex items-center text-justify  text-xl font-medium sm:mb-12 lg:mx-8">
+              Nuestro objetivo es convertirnos en la empresa líder en salud
+              infantil en la provincia, con proyección nacional y regional.
+              Nuestra misión es brindar un servicio médico de calidad
+              excepcional los 365 días del año, brindando seguridad y
+              confiabilidad a las familias.
+            </p>
+
+            <p className="flex items-center text-justify  text-xl font-medium sm:mb-12 lg:mx-8">
+              Acompañamos a nuestros pacientes en todo el proceso de diagnóstico
+              y recuperación, siempre a la vanguardia de los avances
+              científicos. Además, promovemos la formación continua a través de
+              nuestro Comité de Docencia e Investigación.
             </p>
           </div>
         </div>

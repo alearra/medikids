@@ -2,27 +2,27 @@ import React from "react";
 
 export const Diciplinas = () => {
   return (
-    <section className="m-4 md:m-8 bg-slate-50 font-NUNITO rounded-md">
-      <div className="container p-4 mx-auto my-6 space-y-1 text-center">
+    <section className=" bg-slate-50 font-NUNITO">
+      <div className="container p-4 mx-auto  text-center">
         {/* <span className="text-xs font-semibold tracking-wider uppercase text-violet-400">
           shortcut to your dream ui
         </span> */}
-        <h2 className="pb-3 text-3xl font-bold md:text-4xl text-pantoneP111">
+        <h2 className="text-3xl text-center font-semibold capitalize tracking-wide text-pantoneP111 lg:text-4xl">
         Equipo médico interdiciplinario
         </h2>
-        <p className="text-[#898a8d] text-xl font-normal sm:mb-12">
+        <p className="mt-4 text-gray-900 text-base">
         Acompañamos a los padres en el crecimiento y desarrollo de sus hijos.
         </p>
       </div>
-      <div className="container grid justify-center gap-4 mx-auto lg:grid-cols-2 xl:grid-cols-4">
-        <div className="flex flex-col px-8 py-6">
+      <div className="container grid justify-center gap-4 lg:p-4 mx-auto lg:grid-cols-2 xl:grid-cols-4">
+        <div className="flex flex-col px-8 py-6 shadow rounded-md bg-slate-100 transition-colors duration-700 transform hover:bg-pantoneP178">
           <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font text-pantoneP111">
           Clínica pediátrica
           </h2>
-          <p className="flex-1 mb-4 text-base leading-relaxed text-[#898a8d]">
+          <p className="flex-1 leading-relaxed text-gray-900 text-base">
           Amplio equipo de médicos pediatras para la atención de sus hijos.
           </p>
-          <a
+          {/* <a
             className="inline-flex items-center space-x-2 text-sm text-violet-400"
             href="/components"
           >
@@ -39,16 +39,16 @@ export const Diciplinas = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
-        <div className="flex flex-col px-8 py-6 lg:border-none xl:border-solid">
+        <div className="flex flex-col px-8 py-6 lg:border-none xl:border-solid shadow rounded-md bg-slate-100 transition-colors duration-700 transform hover:bg-pantoneP178">
           <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font text-pantoneP111">
           Especialidades
           </h2>
-          <p className="flex-1 mb-4 text-base leading-relaxed text-[#898a8d]">
+          <p className="flex-1 leading-relaxed text-gray-900 text-base">
           Contamos con un gran equipo en diferentes especialidades.
           </p>
-          <a
+          {/* <a
             className="inline-flex items-center space-x-2 text-sm text-violet-400"
             href="/sections"
           >
@@ -65,16 +65,16 @@ export const Diciplinas = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
-        <div className="flex flex-col px-8 py-6">
+        <div className="flex flex-col px-8 py-6 shadow rounded-md bg-slate-100 transition-colors duration-700 transform hover:bg-pantoneP178">
           <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font text-pantoneP111">
           Odontopediatría
           </h2>
-          <p className="flex-1 mb-4 text-base leading-relaxed text-[#898a8d]">
+          <p className="flex-1 leading-relaxed text-gray-900 text-base">
           La salud bucal es fundamental desde la temprana edad.
           </p>
-          <a
+          {/* <a
             className="inline-flex items-center space-x-2 text-sm text-violet-400"
             href="/templates"
           >
@@ -91,16 +91,16 @@ export const Diciplinas = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
-        <div className="flex flex-col px-8 py-6">
+        <div className="flex flex-col px-8 py-6 shadow rounded-md bg-slate-100 transition-colors duration-700 transform hover:bg-pantoneP178">
           <h2 className="mb-2 text-lg font-semibold sm:text-xl title-font text-pantoneP111">
           Obras Sociales
           </h2>
-          <p className="flex-1 mb-4 text-base leading-relaxed text-[#898a8d]">
+          <p className="flex-1 leading-relaxed text-gray-900 text-base">
           Contamos con el acompañamiento de importantes Obras Sociales.
           </p>
-          <a
+          {/* <a
             className="inline-flex items-center space-x-2 text-sm text-violet-400"
             href="/docs"
           >
@@ -117,7 +117,7 @@ export const Diciplinas = () => {
                 clipRule="evenodd"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

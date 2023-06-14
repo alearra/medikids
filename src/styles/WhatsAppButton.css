@@ -9,7 +9,7 @@
     align-items: center;
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 60px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     transition: 0.2s;
     z-index: 99;

@@ -1,14 +1,17 @@
 import React from "react";
-import '../../styles/inputs.css'
-
+import "../../styles/inputs.css";
+/* formulario */
 export const Formulario = () => {
   return (
-  
     <section className="py-6 bg-white font-NUNITO">
       <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
         <div className="py-6 md:py-0 md:px-6">
-          <h1 className="text-4xl font-bold text-pantoneP111">Envíanos tu consulta</h1>
-          <p className="pt-2 pb-4 text-[#898a8d] text-xl font-normal sm:mb-12">Atendemos los 365 días del año</p>
+          <h1 className="text-3xl font-semibold capitalize tracking-wide text-pantoneP111 lg:text-4xl">
+            Envíanos tu consulta
+          </h1>
+          <p className="pt-2 pb-4 text-gray-900 text-lg font-normal sm:mb-12">
+            Atendemos los 365 días del año
+          </p>
           <div className="space-y-4">
             <p className="flex items-center">
               <svg
@@ -23,7 +26,7 @@ export const Formulario = () => {
                   clipRule="evenodd"
                 ></path>
               </svg>
-              <span className="text-[#898a8d]">Ciudad de Mendoza - ARG</span>
+              <span className="text-gray-900">Cnel Rodríguez 118 - MZA</span>
             </p>
             <p className="flex items-center">
               <svg
@@ -34,7 +37,7 @@ export const Formulario = () => {
               >
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
               </svg>
-              <span className="text-[#898a8d]">261-5776043</span>
+              <span className="text-gray-900">261-5776043</span>
             </p>
             <p className="flex items-center">
               <svg
@@ -45,7 +48,7 @@ export const Formulario = () => {
               >
                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
               </svg>
-              <span className="text-[#898a8d]">261-3356915</span>
+              <span className="text-gray-900">261-3356915</span>
             </p>
             <p className="flex items-center">
               <svg
@@ -57,7 +60,7 @@ export const Formulario = () => {
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
               </svg>
-              <span className="text-[#898a8d]">info@medikids.com.ar</span>
+              <span className="text-gray-900">info@medikids.com.ar</span>
             </p>
           </div>
         </div>
@@ -66,7 +69,7 @@ export const Formulario = () => {
           className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid"
         >
           <label className="block">
-          {/* nombre */}
+            {/* nombre */}
             <input
               type="text"
               placeholder="Nombre"
@@ -89,9 +92,10 @@ export const Formulario = () => {
               className="textarea1 p-1.5 block w-full rounded-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400 bg-slate-50"
             ></textarea>
           </label>
+          <br />
           <button
             type="button"
-            className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-pantoneP346 text-slate-50 focus:ring-violet-400 hover:ring-violet-400"
+            className="self-center block shadow mx-1 px-3 py-1 bg-pantoneP346 text-base font-medium text-slate-50 capitalize transition-colors duration-200 transform rounded-md hover:bg-pantoneP346/90 hover:text-white hover:font-semibold"
           >
             Enviar
           </button>
